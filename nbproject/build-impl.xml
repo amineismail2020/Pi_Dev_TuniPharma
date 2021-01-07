@@ -124,6 +124,7 @@ is divided into following sections:
         </condition>
         <condition property="have.sources">
             <or>
+              
                 <available file="${src.dir}"/>
             </or>
         </condition>
