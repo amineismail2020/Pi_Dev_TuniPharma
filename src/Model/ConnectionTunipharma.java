@@ -32,6 +32,7 @@ public class ConnectionTunipharma {
             con = DriverManager.getConnection(url,login,pwd);
             System.out.println("Connexion établie");
         } catch (ClassNotFoundException ex) {
+             
             //Logger.getLogger(MyConnection.class.getName()).log(Level.SEVERE, null, ex);
             System.out.println("Erreur de chargement de driver"+ex.getMessage());
         } catch (SQLException ex){
