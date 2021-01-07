@@ -31,6 +31,7 @@ public class ConnectionBase {
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(ConnectionBase.class.getName()).log(Level.SEVERE, null, ex);
         }
+      
       try{
        connection = DriverManager.getConnection("http://127.0.0.1/home/mysql/", "root", "");
              
